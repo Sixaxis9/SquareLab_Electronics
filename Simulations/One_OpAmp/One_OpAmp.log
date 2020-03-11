@@ -1,0 +1,71 @@
+Circuit: * C:\users\mg\My Documents\GitHub\SquareLab\Simulations\One_OpAmp\One_OpAmp.asc
+
+WARNING: Less than two connections to node -VAL.  This node is used by V2.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+vernier = 0.5
+Gmin = 3.29364e-08
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 3.09559e-08
+vernier = 0.0833333
+vernier = 0.0416667
+vernier = 0.0555555
+Gmin = 2.81531e-08
+vernier = 0.074074
+vernier = 0.037037
+Gmin = 2.56776e-08
+vernier = 0.0493827
+vernier = 0.0658435
+Gmin = 2.25064e-08
+vernier = 0.0877914
+vernier = 0.117055
+Gmin = 1.82783e-08
+vernier = 0.156073
+Gmin = 1.30673e-08
+vernier = 0.208098
+vernier = 0.277464
+Gmin = 7.58627e-09
+vernier = 0.369952
+vernier = 0.493269
+Gmin = 3.24823e-09
+vernier = 0.657691
+Gmin = 8.48362e-10
+vernier = 0.876922
+vernier = 1
+Gmin = 1.1356e-10
+Gmin = 1.21934e-11
+Gmin = 1.30926e-12
+Gmin = 1.40581e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+
+Date: Wed Mar 11 11:17:37 2020
+Total elapsed time: 0.133 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7538
+traniter = 6230
+tranpoints = 2767
+accept = 2161
+rejected = 606
+matrix size = 37
+fillins = 21
+solver = Normal
+Thread vector: 7.3/5.0[3] 3.3/2.1[3] 1.2/1.2[1] 0.2/0.6[1]  2592/500
+Matrix Compiler1: 2.33 KB object code size  0.6/0.4/[0.2]
+Matrix Compiler2: 3.45 KB object code size  0.4/0.5/[0.3]
+
