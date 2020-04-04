@@ -1,4 +1,118 @@
-EESchema Schematic File Version 2
-EELAYER 25 0
+EESchema Schematic File Version 4
+LIBS:SquareLab-cache
+EELAYER 30 0
 EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 5
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 6050 4000 500  800 
+U 5E84F4C6
+F0 "Oscilloscope" 50
+F1 "Oscilloscope.sch" 50
+$EndSheet
+$Sheet
+S 7200 4000 500  850 
+U 5E84F5D5
+F0 "Function_generator" 50
+F1 "Function_generator.sch" 50
+$EndSheet
+$Sheet
+S 8450 4050 500  800 
+U 5E84F65D
+F0 "Sheet5E84F65C" 50
+F1 "Logic_analyzer.sch" 50
+$EndSheet
+$Sheet
+S 9600 4050 500  400 
+U 5E84F6B4
+F0 "Power_supply" 50
+F1 "Power_supply.sch" 50
+$EndSheet
+$Comp
+L power:+5VA #PWR?
+U 1 1 5E907467
+P 4850 2850
+F 0 "#PWR?" H 4850 2700 50  0001 C CNN
+F 1 "+5VA" H 4865 3023 50  0000 C CNN
+F 2 "" H 4850 2850 50  0001 C CNN
+F 3 "" H 4850 2850 50  0001 C CNN
+	1    4850 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED LED_ON
+U 1 1 5E89CA98
+P 4000 1400
+F 0 "LED_ON" H 3993 1616 50  0000 C CNN
+F 1 "BLUE" H 3993 1525 50  0000 C CNN
+F 2 "" H 4000 1400 50  0001 C CNN
+F 3 "~" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED_Dual_AAC D?
+U 1 1 5E89E180
+P 3900 2050
+F 0 "D?" H 3900 2475 50  0000 C CNN
+F 1 "LED_Dual_AAC" H 3900 2384 50  0000 C CNN
+F 2 "" H 3900 2050 50  0001 C CNN
+F 3 "~" H 3900 2050 50  0001 C CNN
+	1    3900 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E89FFE8
+P 4400 1400
+F 0 "R?" V 4193 1400 50  0000 C CNN
+F 1 "R" V 4284 1400 50  0000 C CNN
+F 2 "" V 4330 1400 50  0001 C CNN
+F 3 "~" H 4400 1400 50  0001 C CNN
+	1    4400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E8A14DF
+P 4450 1950
+F 0 "R?" V 4243 1950 50  0000 C CNN
+F 1 "R" V 4334 1950 50  0000 C CNN
+F 2 "" V 4380 1950 50  0001 C CNN
+F 3 "~" H 4450 1950 50  0001 C CNN
+	1    4450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E8A18F8
+P 4450 2150
+F 0 "R?" V 4243 2150 50  0000 C CNN
+F 1 "R" V 4334 2150 50  0000 C CNN
+F 2 "" V 4380 2150 50  0001 C CNN
+F 3 "~" H 4450 2150 50  0001 C CNN
+	1    4450 2150
+	0    1    1    0   
+$EndComp
+$Comp
+L STM32_UL:STM32F730R8T6 U?
+U 1 1 5E88F78F
+P 1100 1250
+F 0 "U?" H 1900 1637 60  0000 C CNN
+F 1 "STM32F730R8T6" H 1900 1531 60  0000 C CNN
+F 2 "QFP_730R8T6_STM" H 1900 1490 60  0001 C CNN
+F 3 "" H 1100 1250 60  0000 C CNN
+	1    1100 1250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
