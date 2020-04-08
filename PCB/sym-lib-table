@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name STM32_UL)(type Legacy)(uri ${KIPRJMOD}/lib/STM32F730R8T6.lib)(options "")(descr ""))
   (lib (name TPS65131RGER)(type Legacy)(uri ${KIPRJMOD}/lib/TPS65131RGER.lib)(options "")(descr ""))
+  (lib (name MCP4017T)(type Legacy)(uri ${KIPRJMOD}/lib/MCP4017T.lib)(options "")(descr ""))
 )

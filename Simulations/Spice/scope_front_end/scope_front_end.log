@@ -1,4 +1,4 @@
-Circuit: * C:\users\mg\My Documents\GitHub\SquareLab\Simulations\Spice\Twp_OpAmps\scope_front_end.asc
+Circuit: * C:\users\mg\My Documents\GitHub\SquareLab\Simulations\Spice\scope_front_end\scope_front_end.asc
 
 Instance "m:u2:6": Length shorter than recommended for a level 2 MOSFET.
 Instance "m:u2:5": Length shorter than recommended for a level 2 MOSFET.
@@ -33,20 +33,20 @@ Source Step = 93.9394%
 Source stepping succeeded in finding the operating point.
 
 
-Date: Sun Apr  5 11:49:57 2020
-Total elapsed time: 0.140 seconds.
+Date: Mon Apr  6 21:35:33 2020
+Total elapsed time: 0.123 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 3873
-traniter = 2127
-tranpoints = 1059
-accept = 1055
-rejected = 4
+totiter = 3861
+traniter = 2114
+tranpoints = 1056
+accept = 1054
+rejected = 2
 matrix size = 51
-fillins = 54
+fillins = 56
 solver = Normal
-Matrix Compiler1: 4.28 KB object code size  0.8/0.4/[0.2]
-Matrix Compiler2: 5.05 KB object code size  0.6/0.9/[0.4]
+Matrix Compiler1: 4.30 KB object code size  0.9/0.4/[0.2]
+Matrix Compiler2: 5.10 KB object code size  0.6/0.9/[0.4]
 
