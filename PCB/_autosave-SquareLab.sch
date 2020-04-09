@@ -409,4 +409,57 @@ Text GLabel 5150 6000 2    50   Input ~ 0
 USB_HS_DP
 Text GLabel 5150 6100 2    50   Input ~ 0
 USB_HS_DM
+Text GLabel 1850 5000 2    50   Input ~ 0
+USB_HS_DP
+Text GLabel 1850 5100 2    50   Input ~ 0
+USB_HS_DM
+Text GLabel 5150 6300 2    50   Input ~ 0
+OTG_HS_ID
+$Comp
+L Device:R R?
+U 1 1 5E8E6A0F
+P 5850 6050
+F 0 "R?" H 5920 6096 50  0000 L CNN
+F 1 "10k" H 5920 6005 50  0000 L CNN
+F 2 "" V 5780 6050 50  0001 C CNN
+F 3 "~" H 5850 6050 50  0001 C CNN
+	1    5850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E8E7639
+P 5850 6350
+F 0 "R?" H 5920 6396 50  0000 L CNN
+F 1 "18k" H 5920 6305 50  0000 L CNN
+F 2 "" V 5780 6350 50  0001 C CNN
+F 3 "~" H 5850 6350 50  0001 C CNN
+	1    5850 6350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5150 6200 5850 6200
+Connection ~ 5850 6200
+$Comp
+L power:GND #PWR?
+U 1 1 5E8E83A9
+P 5850 6500
+F 0 "#PWR?" H 5850 6250 50  0001 C CNN
+F 1 "GND" H 5855 6327 50  0000 C CNN
+F 2 "" H 5850 6500 50  0001 C CNN
+F 3 "" H 5850 6500 50  0001 C CNN
+	1    5850 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5E8E88BA
+P 5850 5900
+F 0 "#PWR?" H 5850 5750 50  0001 C CNN
+F 1 "+5V" H 5865 6073 50  0000 C CNN
+F 2 "" H 5850 5900 50  0001 C CNN
+F 3 "" H 5850 5900 50  0001 C CNN
+	1    5850 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -401,4 +401,18 @@ $EndComp
 Wire Wire Line
 	1450 5400 1550 5400
 Connection ~ 1550 5400
+Text GLabel 3550 5100 0    50   Input ~ 0
+DAC_OUT_1
+Text GLabel 3550 5200 0    50   Input ~ 0
+DAC_OUT_2
+Text GLabel 5150 6000 2    50   Input ~ 0
+USB_HS_DP
+Text GLabel 5150 6100 2    50   Input ~ 0
+USB_HS_DM
+Text GLabel 1850 5000 2    50   Input ~ 0
+USB_HS_DP
+Text GLabel 1850 5100 2    50   Input ~ 0
+USB_HS_DM
+Text GLabel 5150 6300 2    50   Input ~ 0
+OTG_HS_ID
 $EndSCHEMATC
