@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 3
+Sheet 3 4
 Title ""
 Date ""
 Rev ""
@@ -637,45 +637,45 @@ $EndComp
 $Comp
 L Comparator:LM2901 U?
 U 1 1 5E98BC71
-P 1950 2900
-F 0 "U?" H 1950 3267 50  0000 C CNN
-F 1 "LM2901" H 1950 3176 50  0000 C CNN
-F 2 "" H 1900 3000 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 2000 3100 50  0001 C CNN
-	1    1950 2900
+P 1950 2600
+F 0 "U?" H 1950 2967 50  0000 C CNN
+F 1 "LM2901" H 1950 2876 50  0000 C CNN
+F 2 "" H 1900 2700 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 2000 2800 50  0001 C CNN
+	1    1950 2600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Comparator:LM2901 U?
 U 2 1 5E98CB54
-P 4550 2850
-F 0 "U?" H 4550 3217 50  0000 C CNN
-F 1 "LM2901" H 4550 3126 50  0000 C CNN
-F 2 "" H 4500 2950 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 4600 3050 50  0001 C CNN
-	2    4550 2850
+P 4550 2550
+F 0 "U?" H 4550 2917 50  0000 C CNN
+F 1 "LM2901" H 4550 2826 50  0000 C CNN
+F 2 "" H 4500 2650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 4600 2750 50  0001 C CNN
+	2    4550 2550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Comparator:LM2901 U?
 U 3 1 5E98D5CC
-P 1950 5850
-F 0 "U?" H 1950 6217 50  0000 C CNN
-F 1 "LM2901" H 1950 6126 50  0000 C CNN
-F 2 "" H 1900 5950 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 2000 6050 50  0001 C CNN
-	3    1950 5850
+P 1950 5550
+F 0 "U?" H 1950 5917 50  0000 C CNN
+F 1 "LM2901" H 1950 5826 50  0000 C CNN
+F 2 "" H 1900 5650 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 2000 5750 50  0001 C CNN
+	3    1950 5550
 	1    0    0    -1  
 $EndComp
 $Comp
 L Comparator:LM2901 U?
 U 4 1 5E98E17E
-P 4550 5850
-F 0 "U?" H 4550 6217 50  0000 C CNN
-F 1 "LM2901" H 4550 6126 50  0000 C CNN
-F 2 "" H 4500 5950 50  0001 C CNN
-F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 4600 6050 50  0001 C CNN
-	4    4550 5850
+P 4550 5500
+F 0 "U?" H 4550 5867 50  0000 C CNN
+F 1 "LM2901" H 4550 5776 50  0000 C CNN
+F 2 "" H 4500 5600 50  0001 C CNN
+F 3 "https://www.st.com/resource/en/datasheet/lm2901.pdf" H 4600 5700 50  0001 C CNN
+	4    4550 5500
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -711,235 +711,31 @@ F 3 "" H 8600 5250 50  0001 C CNN
 	1    8600 5250
 	1    0    0    -1  
 $EndComp
-Text HLabel 2250 2900 2    50   Input ~ 0
+Text HLabel 2250 2600 2    50   Input ~ 0
 trigger_1
-Text HLabel 4850 2850 2    50   Input ~ 0
+Text HLabel 4850 2550 2    50   Input ~ 0
 trigger_2
-Text HLabel 4850 5850 2    50   Input ~ 0
+Text HLabel 4850 5500 2    50   Input ~ 0
 trigger_4
-Text HLabel 2250 5850 2    50   Input ~ 0
+Text HLabel 2250 5550 2    50   Input ~ 0
 trigger_3
-$Comp
-L Device:R R?
-U 1 1 5E9D5764
-P 1350 6150
-F 0 "R?" H 1280 6104 50  0000 R CNN
-F 1 "R" H 1280 6195 50  0000 R CNN
-F 2 "" V 1280 6150 50  0001 C CNN
-F 3 "~" H 1350 6150 50  0001 C CNN
-	1    1350 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E9D5C20
-P 1350 5750
-F 0 "R?" H 1280 5704 50  0000 R CNN
-F 1 "R" H 1280 5795 50  0000 R CNN
-F 2 "" V 1280 5750 50  0001 C CNN
-F 3 "~" H 1350 5750 50  0001 C CNN
-	1    1350 5750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E9D90EF
-P 4000 5750
-F 0 "R?" H 3930 5704 50  0000 R CNN
-F 1 "R" H 3930 5795 50  0000 R CNN
-F 2 "" V 3930 5750 50  0001 C CNN
-F 3 "~" H 4000 5750 50  0001 C CNN
-	1    4000 5750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E9D96F5
-P 4000 6150
-F 0 "R?" H 3930 6104 50  0000 R CNN
-F 1 "R" H 3930 6195 50  0000 R CNN
-F 2 "" V 3930 6150 50  0001 C CNN
-F 3 "~" H 4000 6150 50  0001 C CNN
-	1    4000 6150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E9DA52E
-P 1400 2800
-F 0 "R?" H 1330 2754 50  0000 R CNN
-F 1 "R" H 1330 2845 50  0000 R CNN
-F 2 "" V 1330 2800 50  0001 C CNN
-F 3 "~" H 1400 2800 50  0001 C CNN
-	1    1400 2800
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E9DCC07
-P 1400 3200
-F 0 "R?" H 1330 3154 50  0000 R CNN
-F 1 "R" H 1330 3245 50  0000 R CNN
-F 2 "" V 1330 3200 50  0001 C CNN
-F 3 "~" H 1400 3200 50  0001 C CNN
-	1    1400 3200
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E9DE6CC
-P 4000 2750
-F 0 "R?" H 3930 2704 50  0000 R CNN
-F 1 "R" H 3930 2795 50  0000 R CNN
-F 2 "" V 3930 2750 50  0001 C CNN
-F 3 "~" H 4000 2750 50  0001 C CNN
-	1    4000 2750
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E9DFBDA
-P 4000 3150
-F 0 "R?" H 3930 3104 50  0000 R CNN
-F 1 "R" H 3930 3195 50  0000 R CNN
-F 2 "" V 3930 3150 50  0001 C CNN
-F 3 "~" H 4000 3150 50  0001 C CNN
-	1    4000 3150
-	-1   0    0    1   
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E9E0487
-P 4000 3300
-F 0 "#PWR?" H 4000 3050 50  0001 C CNN
-F 1 "GNDA" H 4005 3127 50  0000 C CNN
-F 2 "" H 4000 3300 50  0001 C CNN
-F 3 "" H 4000 3300 50  0001 C CNN
-	1    4000 3300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E9E0762
-P 1400 3350
-F 0 "#PWR?" H 1400 3100 50  0001 C CNN
-F 1 "GNDA" H 1405 3177 50  0000 C CNN
-F 2 "" H 1400 3350 50  0001 C CNN
-F 3 "" H 1400 3350 50  0001 C CNN
-	1    1400 3350
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E9E099B
-P 1350 6300
-F 0 "#PWR?" H 1350 6050 50  0001 C CNN
-F 1 "GNDA" H 1355 6127 50  0000 C CNN
-F 2 "" H 1350 6300 50  0001 C CNN
-F 3 "" H 1350 6300 50  0001 C CNN
-	1    1350 6300
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR?
-U 1 1 5E9E28A4
-P 4000 6300
-F 0 "#PWR?" H 4000 6050 50  0001 C CNN
-F 1 "GNDA" H 4005 6127 50  0000 C CNN
-F 2 "" H 4000 6300 50  0001 C CNN
-F 3 "" H 4000 6300 50  0001 C CNN
-	1    4000 6300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	1350 5900 1350 5950
-Connection ~ 1350 5950
-Wire Wire Line
-	1350 5950 1350 6000
-Wire Wire Line
-	4000 5900 4000 5950
-Wire Wire Line
-	4000 5950 4250 5950
-Connection ~ 4000 5950
-Wire Wire Line
-	4000 5950 4000 6000
-Wire Wire Line
-	1350 5950 1650 5950
-Wire Wire Line
-	1400 2950 1400 3000
-Wire Wire Line
-	1400 3000 1650 3000
-Connection ~ 1400 3000
-Wire Wire Line
-	1400 3000 1400 3050
-Wire Wire Line
-	4000 2900 4000 2950
-Wire Wire Line
-	4000 2950 4250 2950
-Connection ~ 4000 2950
-Wire Wire Line
-	4000 2950 4000 3000
-$Comp
-L power:+5VA #PWR?
-U 1 1 5E9EF490
-P 1400 2650
-F 0 "#PWR?" H 1400 2500 50  0001 C CNN
-F 1 "+5VA" H 1415 2823 50  0000 C CNN
-F 2 "" H 1400 2650 50  0001 C CNN
-F 3 "" H 1400 2650 50  0001 C CNN
-	1    1400 2650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VA #PWR?
-U 1 1 5E9EFC6F
-P 4000 2600
-F 0 "#PWR?" H 4000 2450 50  0001 C CNN
-F 1 "+5VA" H 4015 2773 50  0000 C CNN
-F 2 "" H 4000 2600 50  0001 C CNN
-F 3 "" H 4000 2600 50  0001 C CNN
-	1    4000 2600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VA #PWR?
-U 1 1 5E9F4BBC
-P 4000 5600
-F 0 "#PWR?" H 4000 5450 50  0001 C CNN
-F 1 "+5VA" H 4015 5773 50  0000 C CNN
-F 2 "" H 4000 5600 50  0001 C CNN
-F 3 "" H 4000 5600 50  0001 C CNN
-	1    4000 5600
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5VA #PWR?
-U 1 1 5E9F54DC
-P 1350 5600
-F 0 "#PWR?" H 1350 5450 50  0001 C CNN
-F 1 "+5VA" H 1365 5773 50  0000 C CNN
-F 2 "" H 1350 5600 50  0001 C CNN
-F 3 "" H 1350 5600 50  0001 C CNN
-	1    1350 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4250 5750 4250 4850
+	4250 5400 4250 4850
 Connection ~ 4250 4850
 Wire Wire Line
 	4250 4850 4200 4850
 Wire Wire Line
-	1650 5750 1650 4900
+	1650 5450 1650 4900
 Connection ~ 1650 4900
 Wire Wire Line
 	1650 4900 1600 4900
 Wire Wire Line
-	1650 2800 1650 2050
+	1650 2500 1650 2050
 Connection ~ 1650 2050
 Wire Wire Line
 	1650 2050 2250 2050
 Wire Wire Line
-	4250 2750 4250 2000
+	4250 2450 4250 2000
 Connection ~ 4250 2000
 Wire Wire Line
 	4250 2000 4850 2000
@@ -1311,4 +1107,12 @@ F 3 "" H 650 2000 50  0001 C CNN
 	1    650  2000
 	1    0    0    -1  
 $EndComp
+Text HLabel 1650 2700 0    50   Input ~ 0
+trigger_point
+Text HLabel 4250 2650 0    50   Input ~ 0
+trigger_point
+Text HLabel 1650 5650 0    50   Input ~ 0
+trigger_point
+Text HLabel 4250 5600 0    50   Input ~ 0
+trigger_point
 $EndSCHEMATC
